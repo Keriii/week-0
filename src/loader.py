@@ -98,6 +98,20 @@ def get_community_participation(path):
     return comm_dict
 
 
+def get_messages_from_channel(channel_path):
+    '''
+    get all the messages from a channel        
+    '''
+    channel_json_files = os.listdir(channel_path)
+    channel_msgs = [json.load(open(channel_path + "/" + f)) for f in channel_json_files]
+
+    df = pd.concat([pd.DataFrame(get_messages_dict(msgs)) for msgs in channel_msgs])
+    print(f"Number of messages in channel: {len(df)}")
+    
+    return df
+
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Export Slack history')
 
