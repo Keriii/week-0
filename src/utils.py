@@ -237,26 +237,30 @@ def slack_parser(path_channel):
 
     # specify path to get json files
     combined = []
-    for json_file in glob.glob(f"{path_channel}*.json"):
+    for json_file in glob.glob(f"{path_channel}/*.json"):
         with open(json_file, 'r', encoding="utf8") as slack_data:
-            combined.append(slack_data)
+            file = json.load(slack_data)
+            combined.append(file)
 
     # loop through all json files and extract required informations
     dflist = []
     for slack_data in combined:
-
+        #create an empty list for the requierd informattions
         msg_type, msg_content, sender_id, time_msg, msg_dist, time_thread_st, reply_users, \
         reply_count, reply_users_count, tm_thread_end = [],[],[],[],[],[],[],[],[],[]
-
+        #loop through the json files and extract the requierd inormations
         for row in slack_data:
             if 'bot_id' in row.keys():
                 continue
             else:
-                msg_type.append(row['type'])
-                msg_content.append(row['text'])
+                if 'type' in row.keys(): msg_type.append(row['type'])
+                else: msg_type.append('Not provided')
+                if 'text' in row.keys(): msg_content.append(row['text'])
+                else: msg_content.append('Not provided')
                 if 'user_profile' in row.keys(): sender_id.append(row['user_profile']['real_name'])
                 else: sender_id.append('Not provided')
-                time_msg.append(row['ts'])
+                if 'ts' in row.keys(): time_msg.append(row['ts'])
+                else: time_msg.append('Not provided')
                 if 'blocks' in row.keys() and len(row['blocks'][0]['elements'][0]['elements']) != 0 :
                      msg_dist.append(row['blocks'][0]['elements'][0]['elements'][0]['type'])
                 else: msg_dist.append('reshared')
@@ -274,11 +278,13 @@ def slack_parser(path_channel):
                     reply_count.append(0)
                     reply_users_count.append(0)
                     tm_thread_end.append(0)
+        #store the extracted informations in a data 
         data = zip(msg_type, msg_content, sender_id, time_msg, msg_dist, time_thread_st,
          reply_count, reply_users_count, reply_users, tm_thread_end)
         columns = ['msg_type', 'msg_content', 'sender_name', 'msg_sent_time', 'msg_dist_type',
          'time_thread_start', 'reply_count', 'reply_users_count', 'reply_users', 'tm_thread_end']
-
+        
+        #create a dataframe df for columns columns and data as data
         df = pd.DataFrame(data=data, columns=columns)
         df = df[df['sender_name'] != 'Not provided']
         dflist.append(df)
