@@ -74,48 +74,47 @@ class SlackDataLoader:
             userIdsByName[user['name']] = user['id']
         return userNamesById, userIdsByName        
 
+    def get_tagged_users(df):
+        """get all @ in the messages"""
 
-def get_tagged_users(df):
-    """get all @ in the messages"""
-
-    return df['msg_content'].map(lambda x: re.findall(r'@U\w+', x))
-
-
-def get_community_participation(path):
-    """ specify path to get json files"""
-    combined = []
-    comm_dict = {}
-    for json_file in glob.glob(f"{path}*.json"):
-        with open(json_file, 'r') as slack_data:
-            combined.append(slack_data)
-    # print(f"Total json files is {len(combined)}")
-    for i in combined:
-        a = json.load(open(i.name, 'r', encoding='utf-8'))
-
-        for msg in a:
-            if 'replies' in msg.keys():
-                for i in msg['replies']:
-                    comm_dict[i['user']] = comm_dict.get(i['user'], 0)+1
-    return comm_dict
+        return df['msg_content'].map(lambda x: re.findall(r'@U\w+', x))
 
 
-def get_messages_from_channel(channel_path):
-    '''
-    get all the messages from a channel        
-    '''
-    channel_json_files = os.listdir(channel_path)
-    channel_msgs = [json.load(open(channel_path + "/" + f)) for f in channel_json_files]
+    def get_community_participation(path):
+        """ specify path to get json files"""
+        combined = []
+        comm_dict = {}
+        for json_file in glob.glob(f"{path}*.json"):
+            with open(json_file, 'r') as slack_data:
+                combined.append(slack_data)
+        # print(f"Total json files is {len(combined)}")
+        for i in combined:
+            a = json.load(open(i.name, 'r', encoding='utf-8'))
 
-    df = pd.concat([pd.DataFrame(get_messages_dict(msgs)) for msgs in channel_msgs])
-    print(f"Number of messages in channel: {len(df)}")
-    
-    return df
+            for msg in a:
+                if 'replies' in msg.keys():
+                    for i in msg['replies']:
+                        comm_dict[i['user']] = comm_dict.get(i['user'], 0)+1
+        return comm_dict
+
+
+    def get_messages_from_channel(channel_path):
+        '''
+        get all the messages from a channel        
+        '''
+        channel_json_files = os.listdir(channel_path)
+        channel_msgs = [json.load(open(channel_path + "/" + f)) for f in channel_json_files]
+
+        df = pd.concat([pd.DataFrame(get_messages_dict(msgs)) for msgs in channel_msgs])
+        print(f"Number of messages in channel: {len(df)}")
+        
+        return df
 
 
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Export Slack history')
+    if __name__ == "__main__":
+        parser = argparse.ArgumentParser(description='Export Slack history')
 
-    
-    parser.add_argument('--zip', help="Name of a zip file to import")
-    args = parser.parse_args()
+        
+        parser.add_argument('--zip', help="Name of a zip file to import")
+        args = parser.parse_args()
