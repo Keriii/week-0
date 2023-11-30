@@ -296,13 +296,14 @@ def slack_parser(path_channel):
     return dfall
 
 
-def parse_slack_reaction(path, channel):
+def parse_slack_reaction(path):
     """get reactions"""
     dfall_reaction = pd.DataFrame()
     combined = []
     for json_file in glob.glob(f"{path}*.json"):
         with open(json_file, 'r') as slack_data:
-            combined.append(slack_data)
+            data = json.load(slack_data)
+            combined.append(data)
 
     reaction_name, reaction_count, reaction_users, msg, user_id = [], [], [], [], []
 
@@ -321,5 +322,5 @@ def parse_slack_reaction(path, channel):
     data_reaction = zip(reaction_name, reaction_count, reaction_users, msg, user_id)
     columns_reaction = ['reaction_name', 'reaction_count', 'reaction_users_count', 'message', 'user_id']
     df_reaction = pd.DataFrame(data=data_reaction, columns=columns_reaction)
-    df_reaction['channel'] = channel
+    df_reaction['channel'] = path.split('/')[-1].split('.')[0]        
     return df_reaction
