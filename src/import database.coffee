@@ -6,7 +6,7 @@ mongo_db = 'slack_database'
 mongo_uri = 'mongodb://localhost:27017/'
 
 # Specify the path
-path = 'C:\Users\ok\Desktop\Week_0\week-0'  # Replace with your directory path
+path = 'C:\Users\ok\Desktop\Week_0\week-0' # Path of the directory containing JSON files
 
 # Iterate through files in the directory
 
