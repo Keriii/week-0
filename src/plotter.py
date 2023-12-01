@@ -57,3 +57,4 @@ def draw_user_reaction(data, channel='General'):
     plt.xlabel("Sender Name", size=18); plt.ylabel("Frequency", size=18);
     plt.xticks(size=14); plt.yticks(size=14);
     plt.show()
+
