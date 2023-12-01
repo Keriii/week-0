@@ -13,6 +13,8 @@ conf/**/*credentials*
 data/**
 logs/**
 
+#ignore the all dataset
+all_data.csv
 # except their sub-folders
 !data/**/
 !logs/**/

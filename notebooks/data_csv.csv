@@ -1,0 +1,283 @@
+,msg_type,msg_content,sender_name,msg_sent_time,msg_dist_type,time_thread_start,reply_count,reply_users_count,reply_users,tm_thread_end,channel
+0,message,Good morning everyone :blush: welcome to week 8 of 12.  Wishing you all a productive week ahead ,Garrett Bell,1665385707.569729,text,0,0,0,0,0,all-week8
+1,message,Good morning!,Carlos Gross,1665385734.616309,text,0,0,0,0,0,all-week8
+2,message,Good Morning.,Samuel King,1665385760.620169,text,0,0,0,0,0,all-week8
+3,message,Good Morning!!!,Daniel Brown,1665387214.795849,text,0,0,0,0,0,all-week8
+4,message,Good Morning.,Willie Yang,1665388127.826899,text,0,0,0,0,0,all-week8
+5,message,"Good morning all, Monday music on standup link, join now to vibe with me",Vanessa Norman,1665388592.635289,text,0,0,0,0,0,all-week8
+6,message,"How do We get the k-line data guys? there are too many varieties,",Joshua Rhodes,1665396091.818989,text,1665396091.818989,1,1,U03UG4Q7V42,1665426020.667739,all-week8
+7,message,"You can find the updated list of quake books from week 7 hot seaters here.
+
+<https://www.notion.so/Quake-books-1a622f5c9a1f4a418126fcc4ce05aa01>",Travis Butler,1665399605.224129,text,0,0,0,0,0,all-week8
+8,message,Has the session ended? I lost connection and I cannot rejoin.,Brian Odom,1665412261.292449,text,1665412261.292449,3,3,"U03V61VGQG0,U03TEPYRM2P,U03UJKJGRAQ",1665412344.224389,all-week8
+9,message,yes it has ended.,Paula Bryant,1665412277.359839,text,1665412261.292449,0,0,0,0,all-week8
+10,message,yes,Garrett Bell,1665412281.779959,text,1665412261.292449,0,0,0,0,all-week8
+11,message,Ok .. so I missed only a couple of minutes.,Brian Odom,1665412344.224389,text,1665412261.292449,0,0,0,0,all-week8
+12,message,"hi, i just want to confirm that the submission dates on this week's challenge document are correct?
+• interim submission - *tuesday* 11th oct at 8pm utc (vs wednesday)
+• final submission - *thursday* 13th oct at 8pm utc (vs saturday)",Elizabeth Hall,1665412350.628759,text,1665412350.628759,3,3,"U03TEPYRM2P,U03UP7V9Q57,U03UD5B7C3X",1665414520.397339,all-week8
+13,message,Thank you for spoting that Wangui. Let me confirm that from the tutors,Garrett Bell,1665412436.978359,text,1665412350.628759,0,0,0,0,all-week8
+14,message,"<@U03UUN8M4RX> In answering my question you said ""if you transported yourself to the past..""
+if I did transport myself to the past, I would told everyone how I invented time-travel and all the markets would have crashed. :smile:",Brian Odom,1665412703.494659,user,1665412703.494659,2,2,"U03UD68RQH3,U03UJKJGRAQ",1665421587.914539,all-week8
+15,message,Updated back to Wednesday and Saturday,Michele Sparks,1665414112.162979,text,1665412350.628759,0,0,0,0,all-week8
+16,message,nice. thank you!,Elizabeth Hall,1665414520.397339,text,1665412350.628759,0,0,0,0,all-week8
+17,message,With great power comes great responsibility so use it wisely :smile:,Brady Rhodes,1665420888.641139,text,1665412703.494659,0,0,0,0,all-week8
+18,message,that's true <@U03UD68RQH3> I will keep  that in mind when I time-travel next time :laughing:,Brian Odom,1665421587.914539,text,1665412703.494659,0,0,0,0,all-week8
+19,message,"""Integration of backtesting framework""
+
+This is the one of the Wednesday deliverables under the Github link submission.
+
+Is this referring to the models?",Michelle Lewis,1665423328.130499,text,0,0,0,0,0,all-week8
+20,message,"Are we supposed to create our own backtesting algorithm or we are going to use one out of the ones provided (<https://backtrader.com/docu/|backtrader>, <https://vectorbt.dev/|vectorbt>, or <https://www.freqtrade.io/en/stable/backtesting/|freqtrade>)?",Michelle Lewis,1665424090.843419,text,0,0,0,0,0,all-week8
+21,message,"• Create a dynamic scene (simple json or ini file) that automates the run of backtests by taking in parameters
+    ◦ Date range (start and end date for backtest)
+    ◦ *Indicator*
+    ◦ Indicator params range
+Does ""indicator"" in the above sentence means a variable in the in the dataset?",Michelle Lewis,1665424738.715489,rich_text_section,0,0,0,0,0,all-week8
+22,message,Have you gotten an answer for this <@U03U1FNPEUX>?,Phillip Atkins,1665426020.667739,text,1665396091.818989,0,0,0,0,all-week8
+23,message,"when cloning a repo, what's the difference between using git@gitrepolink and gitrepolink when cloning repo?",Michelle Lewis,1665434032.507359,text,1665434032.507359,6,3,"U03U1FNPEUX,U03UJN29Y4C,U03UD68RQH3",1665467582.233329,all-week8
+24,message,can you clarify?,Joshua Rhodes,1665434675.449259,text,1665434032.507359,0,0,0,0,all-week8
+25,message,the first is .git the second is .html,Michelle Lewis,1665435307.697649,text,1665434032.507359,0,0,0,0,all-week8
+26,message,are you referring https vs ssh?,Brady Rhodes,1665438872.227919,text,1665434032.507359,0,0,0,0,all-week8
+27,message,u mean <https://github.com/> vs <mailto:git@github.com|git@github.com> ?,Brady Rhodes,1665438976.810699,text,1665434032.507359,0,0,0,0,all-week8
+28,message,If so the difference lies in what your asked as credintials. the first one requires you to provide your ssh public key. And the latter uses your (github) username and PW,Joshua Rhodes,1665442798.975139,text,1665434032.507359,0,0,0,0,all-week8
+29,message,```pip install matplotlib==3.2.2```,Amy Leon,1665447590.721639,text,1665447406.723449,0,0,0,0,all-week8
+30,message,This have several aftermaths it does not get the error fixed,Daniel Brown,1665448087.606109,text,1665447406.723449,0,0,0,0,all-week8
+31,message,"```sudo apt-get install libfreetype6-dev
+sudo apt-get install pkg-config
+sudo apt-get install libpng-dev
+sudo apt-get install pkg-config```",Amy Leon,1665448172.643319,text,1665447406.723449,0,0,0,0,all-week8
+32,message,Try installing these packages,Amy Leon,1665448185.461419,text,1665447406.723449,0,0,0,0,all-week8
+33,message,<@U03U1FNPEUX> Thank you,Michelle Lewis,1665467582.233329,user,1665434032.507359,0,0,0,0,all-week8
+34,message,<!channel> Daily standup has started,Garrett Bell,1665475507.168689,broadcast,0,0,0,0,0,all-week8
+35,message,"website from the current session (database design):
+<https://dbdiagram.io/home>",Brian Odom,1665490319.589579,text,1665490319.589579,1,1,U03UG0SFHGT,1665490648.418599,all-week8
+36,message,Thank you <@U03UJKJGRAQ>,Willie Yang,1665490648.418599,text,1665490319.589579,0,0,0,0,all-week8
+37,message,can i get a recorded tutorial of today’s  back testing?,Nancy Craig,1665501880.342719,text,1665501880.342719,8,5,"U03V6HMRPGQ,U03UG1Z21JP,U03UG5VFN03,U03TEPYRM2P,U03UAKATQ22",1665558349.600599,all-week8
+38,message,<@U03TEPYRM2P> can we ?,Cristian Wilson,1665502238.832359,user,1665501880.342719,0,0,0,0,all-week8
+39,message,I joined late due to internet issues. I would love to have the record as soon as possible <@U03TEPYRM2P>,Jennifer Foley,1665502972.148749,text,1665501880.342719,0,0,0,0,all-week8
+40,message,I was ateneded but I need some part of it,Nancy Craig,1665503093.676149,text,1665501880.342719,0,0,0,0,all-week8
+41,message,Sure! The upload is in progress,Garrett Bell,1665504398.255839,text,1665501880.342719,0,0,0,0,all-week8
+42,message,Thank you so much,Nancy Craig,1665504432.691569,text,1665501880.342719,0,0,0,0,all-week8
+43,message,"During reading I witness a term (Security) in most of the provided docs, can anyone explain it?",Cristian Wilson,1665505715.758419,text,1665505715.758419,7,5,"U03V5Q9N516,U03UG4Q7V42,U03UD68RQH3,U03V6HMRPGQ,U03UVHCV6KB",1665507710.318549,all-week8
+44,message,I think it is associated with the success of the trading!,Debra Lawrence,1665505812.445459,text,1665505715.758419,0,0,0,0,all-week8
+45,message,it is something that has monetary value and which can be traded on the market.,Phillip Atkins,1665505970.845419,text,1665505715.758419,0,0,0,0,all-week8
+46,message,"don't confuse it with it's literal meaning, <@U03UG4Q7V42> defined it well... it could be gold, Real states, stocks etc..",Brady Rhodes,1665506786.331179,text,1665505715.758419,0,0,0,0,all-week8
+47,message,so it is a financial term referring to a commodity ?,Cristian Wilson,1665507637.215649,text,1665505715.758419,0,0,0,0,all-week8
+48,message,<@U03V6HMRPGQ> yeah,Brady Rhodes,1665507662.646459,user,1665505715.758419,0,0,0,0,all-week8
+49,message,Thank you all for the answers,Cristian Wilson,1665507710.318549,text,1665505715.758419,0,0,0,0,all-week8
+50,message,What should be the date range of the data we will be downloading?,Michelle Lewis,1665513700.897779,text,1665513700.897779,1,1,U03UJN29Y4C,1665524581.287339,all-week8
+51,message,Thanks again I got it,Nancy Craig,1665513750.632219,text,1665501880.342719,0,0,0,0,all-week8
+52,message,<@U03TEPYRM2P> The uploaded file has only 360p quality. Is there a way to upgrade it?,Gary Thomas,1665522409.054749,user,1665501880.342719,0,0,0,0,all-week8
+53,message,"Hey <!channel> your RDS postgres databases are ready and you can access them from your EC2 instances
+
+You can connect using
+`psql --host <http://melachallengedatabase.crlafpfc5g5y.us-east-1.rds.amazonaws.com|melachallengedatabase.crlafpfc5g5y.us-east-1.rds.amazonaws.com> --port 5432 --username groupNameuser --password --dbname groupNamedb`
+
+substitute groupName with all lowercase versions of your group name
+
+example connection:
+`psql --host <http://melachallengedatabase.crlafpfc5g5y.us-east-1.rds.amazonaws.com|melachallengedatabase.crlafpfc5g5y.us-east-1.rds.amazonaws.com> --port 5432 --username changuser --password --dbname changdb`
+
+Password for all groups is _groupNamepass_ example - _changpass_
+
+Exceptions to this are group 4. group 4 will use yvonne (first name) as the group name instead of Choquet-Bruhat
+
+Use this thread if you're facing problems connecting",Mandy Sweeney,1665523875.578819,text,0,0,0,0,0,all-week8
+54,message,<@U03UKL27B0R>,Michelle Lewis,1665524581.287339,user,1665513700.897779,0,0,0,0,all-week8
+55,message,"That is the maximum quality we received from Google. However, you can check your network ",Garrett Bell,1665558349.600599,text,1665501880.342719,0,0,0,0,all-week8
+56,message,didn’t see this when I posted the same thing below :wink:,Eric Myers,1665568484.903069,text,1665566115.858629,0,0,0,0,all-week8
+57,message,When is the second tutorial scheduled for today,Daniel Brown,1665580935.055059,text,1665580935.055059,6,4,"U03UVHCV6KB,U03UD68RQH3,U03UG0YHAUT,U03TEPYRM2P",1665581291.773299,all-week8
+58,message,has been postponed to tomorrow,Travis Butler,1665581016.964689,text,1665580935.055059,0,0,0,0,all-week8
+59,message,<https://10academybatch6.slack.com/archives/C03U4J8J4LQ/p1665561498734959>,Travis Butler,1665581027.049859,link,1665580935.055059,0,0,0,0,all-week8
+60,message,it's re-scheduled to tomorrow 9:30 AM UTC,Brady Rhodes,1665581045.876169,text,1665580935.055059,0,0,0,0,all-week8
+61,message,:pray: <@U03UVHCV6KB>,Daniel Brown,1665581105.690759,emoji,1665580935.055059,0,0,0,0,all-week8
+62,message,:pray: <@U03UD68RQH3>,Daniel Brown,1665581149.732859,emoji,1665580935.055059,0,0,0,0,all-week8
+63,message,1pm UTC tomorrow please ,Garrett Bell,1665581291.773299,text,1665580935.055059,0,0,0,0,all-week8
+64,message,"hi <@U03TEPYRM2P>, i know today's tutorial session just ended but could we have it uploaded really soon?",Elizabeth Hall,1665671064.872769,text,1665671064.872769,1,1,U03TEPYRM2P,1665671944.274899,all-week8
+65,message,<!here> can someone send me the docker-compose file for Kafka connector,Travis Butler,1665671213.446189,broadcast,1665671213.446189,2,1,U03UKL27B0R,1665684299.100249,all-week8
+66,message,sure - it will be uploaded as soon as possible,Garrett Bell,1665671944.274899,text,1665671064.872769,0,0,0,0,all-week8
+67,message,<https://www.youtube.com/watch?v=uZnp21fu8TQ>,Jennifer Foley,1665681516.144379,link,0,0,0,0,0,all-week8
+68,message,<https://github.com/confluentinc/cp-docker-images>,Brittany Garcia,1665684295.191149,link,1665671213.446189,0,0,0,0,all-week8
+69,message,This is the official docker image of conlfuent. You can find the distributed &amp; standalone mode for running the entire kafka setup,Brittany Garcia,1665684299.100249,text,1665671213.446189,0,0,0,0,all-week8
+70,message,can any one help me how to define dates in PostgreSQL shcema ?,Cristian Wilson,1665688834.338989,text,1665688834.338989,3,2,"U03UVHCV6KB,U03V6HMRPGQ",1665730950.685009,all-week8
+71,message,"```DROP TABLE IF EXISTS employees;
+
+CREATE TABLE employees (
+	employee_id serial PRIMARY KEY,
+	first_name VARCHAR (255),
+	last_name VARCHAR (355),
+	birth_date DATE NOT NULL,
+	hire_date DATE NOT NULL
+);
+
+INSERT INTO employees (first_name, last_name, birth_date, hire_date)
+VALUES ('Shannon','Freeman','1980-01-01','2005-01-01'),
+	   ('Sheila','Wells','1978-02-05','2003-01-01'),
+	   ('Ethel','Webb','1975-01-01','2001-01-01');```",Travis Butler,1665689576.535569,text,1665688834.338989,0,0,0,0,all-week8
+72,message,"this can be a good start, for more detailed explanation refer this link <https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-date/>",Travis Butler,1665689621.531619,text,1665688834.338989,0,0,0,0,all-week8
+73,message,"Always there <@U03UVHCV6KB> :pray:,thank you",Cristian Wilson,1665730950.685009,text,1665688834.338989,0,0,0,0,all-week8
+74,message,"Kindly find the updated list of quake books, updated with week 8 hot seaters.
+<https://www.notion.so/Quake-books-1a622f5c9a1f4a418126fcc4ce05aa01>",Travis Butler,1665744861.425069,text,0,0,0,0,0,all-week8
+75,message,can I get the link of session,Cristian Wilson,1665756107.060959,text,1665756107.060959,1,1,U03UFV7HFNF,1665756165.638109,all-week8
+76,message,<https://meet.google.com/ysb-kjdn-hpp>,Judith Bolton,1665756126.005109,link,0,0,0,0,0,all-week8
+77,message,<http://meet.google.com/ysb-kjdn-hpp|http://meet.google.com/ysb-kjdn-hpp>,Miguel Herring,1665756165.638109,link,1665756107.060959,0,0,0,0,all-week8
+78,message,<https://youtu.be/zoKn4qk4mac>,Kelly Soto,1665837934.076499,link,0,0,0,0,0,all-week8
+0,message,"Good morning winners, welcome to week 9 of week 12 of this intensive training. We commend your resilience and perseverance as you sail through the thick and thin of this training. You’ve been pushing since the day you applied for this training and you never cease to push to get your tasks done. We are proud of you! You’ve started seeing some rays of light inside the tunnel - in the coming weeks, you’ll eventually see the light at the end of the tunnel. Do have a great week ahead :blush:",Garrett Bell,1665986976.419669,text,0,0,0,0,0,all-week9
+1,message,The dates have not been updated,Brenda Hernandez,1666173088.934679,text,0,0,0,0,0,all-week9
+2,message,"I deeply believe that the two big blockers for African DE &amp; ML developers to be on a global scale are electricity and stable internet connectivity.
+How we can overcome it ???
+because of those problems I couldn't attend most of today session",Cristian Wilson,1666193972.590499,text,1666193972.590499,2,2,"U03UJGP0C68,U03V6HMRPGQ",1666358713.559869,all-week9
+3,message,I second you. I'm really pissed off with my internet connection….I'm using the so called “LTE+” but lol i got a speed of 300Kb/s :sob::man-facepalming:,Judith Bolton,1666205338.487119,text,1666193972.590499,0,0,0,0,all-week9
+4,message,I guess the trip Origin and Trip Destination contained the longitude and latitude of the location. right? and in that order?,Michelle Lewis,1666210049.595489,text,1666210049.595489,4,2,"U03UVHCV6KB,U03UJN29Y4C",1666214193.823399,all-week9
+5,message,How could I join the two tables? do they have a common attribute that can I use to merge them together?,Katie Dickerson,1666210433.816259,text,1666210433.816259,18,6,"U03UUR571A5,U03UJGRN5E0,U03UJH1EQQL,U03UG1Z21JP,U03UVHCV6KB,U03UJN29Y4C",1666285900.691219,all-week9
+6,message,You can merge them using pandas,Amy Leon,1666210940.921579,text,1666210433.816259,0,0,0,0,all-week9
+7,message,<https://www.w3schools.com/python/pandas/ref_df_merge.asp>,Amy Leon,1666210987.389879,link,1666210433.816259,0,0,0,0,all-week9
+8,message,<https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html>,Amy Leon,1666210993.285349,link,1666210433.816259,0,0,0,0,all-week9
+9,message,"<@U03UUR571A5> Do we have a common column that exists in both? I think we need a common column to join two tables, right?",Katie Dickerson,1666211656.180889,user,1666210433.816259,0,0,0,0,all-week9
+10,message,"Yes we have, on the nb.csv we have *`Trip ID`* for the driver_location_data we have *`order_id`* Those two are similar",Amy Leon,1666211863.351049,text,1666210433.816259,0,0,0,0,all-week9
+11,message,but for the driver_location data the unique one is order_id+driver_id since the order is broadcasted to multiple drivers.,Amy Leon,1666211936.642009,text,1666210433.816259,0,0,0,0,all-week9
+12,message,<@U03UUR571A5> Thanks,Katie Dickerson,1666211968.373929,user,1666210433.816259,0,0,0,0,all-week9
+13,message,Latitude comes first in alphabetical order and it also is the first coordinate in a set. Longitude is the second coordinate in the set. Given a default arrangement.,Travis Butler,1666212562.608319,text,1666210049.595489,0,0,0,0,all-week9
+14,message,"so to answer your question, no, in it is actually in reverse, latitude and then longitude",Travis Butler,1666212634.678419,text,1666210049.595489,0,0,0,0,all-week9
+15,message,more on that here: <https://www.geographyrealm.com/remember-difference-latitude-longitude/>,Travis Butler,1666212652.469969,text,1666210049.595489,0,0,0,0,all-week9
+16,message,Thank you Fish,Michelle Lewis,1666214193.823399,text,1666210049.595489,0,0,0,0,all-week9
+17,message,"On task 1 Exercise 2 of this week challenge we are required to create some relevant features using data that can be obtained in the public domain like rain vs no rain, holiday vs not-holiday however to do this types of feature additions we need to have time stamps which is not provided, how do you think we can deal with this issue?",Daniel Brown,1666243259.033569,text,0,0,0,0,0,all-week9
+18,message,<@U03UP7V9Q57>,Katherine Foster,1666243904.266079,user,1666173062.008659,0,0,0,0,all-week9
+19,message,How was yesterday's guest talk?,Katherine Foster,1666243918.977219,text,1666243918.977219,5,3,"U03UG0YHAUT,U03UVHCV6KB,U03U93GNNVB",1666264324.300969,all-week9
+20,message,<@U03U93GNNVB> That was nice and it provided a lot of domain knowledge.,Daniel Brown,1666244039.503269,user,1666243918.977219,0,0,0,0,all-week9
+21,message,"I tried this way, df_merge = df_nb.merge(df_loc, how = 'inner', on = ['Trip ID', 'order_id']).  but it didn't work for me. how does it work for you? <@U03UJGRN5E0>",Kelly Soto,1666244660.884179,text,1666210433.816259,0,0,0,0,all-week9
+22,message,"this is what worked for me
+```order_df.merge(trip_df, how='inner', left_on='order_id',right_on=""Trip ID"")```",Katie Dickerson,1666246178.540469,text,1666210433.816259,0,0,0,0,all-week9
+23,message,thanks <@U03UJGRN5E0>! it wok!,Kelly Soto,1666246448.339599,text,1666210433.816259,0,0,0,0,all-week9
+24,message,<@U03TX2VN6H5> @challenge document what is the difference between interim submission and final submissions in the presentation and report writing part?,Nancy Craig,1666252118.086519,user,1666252118.086519,2,2,"U03TEPYRM2P,U03UG5VFN03",1666252910.370849,all-week9
+25,message,how have you separated trip origin? it has two variables inside,Jennifer Foley,1666252205.367989,text,1666210433.816259,0,0,0,0,all-week9
+26,message,please check the *'leaderboard of the week*' section on the challenge document. You will find the required expectations of both interim and final submission.,Garrett Bell,1666252530.783319,text,1666252118.086519,0,0,0,0,all-week9
+27,message,"okay , thanks",Nancy Craig,1666252910.370849,text,1666252118.086519,0,0,0,0,all-week9
+28,message,"<@U03UG1Z21JP> If you want to split it to an additional column you can use
+```df['Trip_Origin_lat'] = df['Trip Origin'].apply(lambda x: str(x).split(',')[0])
+df['Trip_Origin_lng'] = df['Trip Origin'].apply(lambda x: str(x).split(',')[1])```",Amy Leon,1666253462.938469,user,1666210433.816259,0,0,0,0,all-week9
+29,message,<@U03UJGP0C68> thank you so much.,Jennifer Foley,1666253537.763469,user,1666210433.816259,0,0,0,0,all-week9
+30,message,<@U03UJGP0C68> I dont understand what you said about merging the two tables. could you clarify a bit here?,Jennifer Foley,1666254249.454609,user,1666210433.816259,0,0,0,0,all-week9
+31,message,"Super, got a lot without doing any form of analysis. Really helpful in reframing my (hopefully all of our) approach to the analysis phase of the data.",Travis Butler,1666254675.626219,text,1666243918.977219,0,0,0,0,all-week9
+32,message,"So basically <@U03UG1Z21JP>, what he said was, on the second table you are going to find repeating order id's. But when you look at the 'drivers_actions' feature of the repeating order id's you will find only one accepted row even if you have several reject one's",Travis Butler,1666255462.908059,text,1666210433.816259,0,0,0,0,all-week9
+33,message,<@U03UVHCV6KB> Thank you,Jennifer Foley,1666257520.533999,user,1666210433.816259,0,0,0,0,all-week9
+34,message,What did you understand that perhaps you didn't understand before <@U03UVHCV6KB>?,Katherine Foster,1666258762.163209,text,1666243918.977219,0,0,0,0,all-week9
+35,message,Hello guys.. I think the trip_id is actually the order_id in the second table right? Just want to confirm,Brenda Hernandez,1666263788.522789,text,1666263788.522789,2,2,"U03UUR571A5,U03UG1Z21JP",1666264587.388439,all-week9
+36,message,Yes <@U03UH397319>,Amy Leon,1666263831.347779,text,1666263788.522789,0,0,0,0,all-week9
+37,message,What I was trying to say was that I understood lots about the data prior to doing any analysis on the data.,Travis Butler,1666264027.308979,text,1666243918.977219,0,0,0,0,all-week9
+38,message,"Like the scope of the data, what types of things have been kept and which one's are given to us, some bit amount of the actual business and what it is that they are really doing, and importantly what they want to gain from us, in terms of qualitative percentage of order increase and delivery optimizations, and about other personal and related types of data they have been collecting and how they were planning on using that for their advantage.",Travis Butler,1666264324.300969,text,1666243918.977219,0,0,0,0,all-week9
+39,message,you are right <@U03UH397319>,Jennifer Foley,1666264587.388439,text,1666263788.522789,0,0,0,0,all-week9
+40,message,I guess this will result to a one to many merge,Michelle Lewis,1666285867.088549,text,1666210433.816259,0,0,0,0,all-week9
+41,message,yeah!,Kelly Soto,1666285900.691219,text,1666210433.816259,0,0,0,0,all-week9
+42,message,"Hi, I cannot render some graphs on my Github but I can see them on my local notebook, is there a fix for this?",Ashley Hamilton,1666292418.438889,text,1666292418.438889,1,1,U03UVHCV6KB,1666292845.738119,all-week9
+43,message,"putting it as an image is one option, but not a satisfying one I know",Travis Butler,1666292845.738119,text,1666292418.438889,0,0,0,0,all-week9
+44,message,on the delivery_request data we have `lat` and `lng` values....that doesn't match to the  location values to the nb.csv dataset (when merging on `order_id = trip_id`) so does that mean we also have the drivers/pilots location in addition to the trip origin location?,Judith Bolton,1666293417.408839,text,1666293417.408839,5,4,"U03UUR571A5,U03UJGP0C68,U03UJN29Y4C,U03UG5VFN03",1666335813.820309,all-week9
+45,message,"Yes, I think drivers location shows where the driver was located at broadcast time( or while rejecting or accepting the trip)",Amy Leon,1666296258.847529,text,1666293417.408839,0,0,0,0,all-week9
+46,message,one more question....how about this case? there are many trip_id values in the completed orders data that I cannot find in the delivery_request data...how is that possible?,Judith Bolton,1666299983.527179,text,1666293417.408839,0,0,0,0,all-week9
+47,message,I was thinking about how to handle that issue too. May be just considering the trips that have driver_action associated with them. But am not really sure yet,Amy Leon,1666300535.368759,text,1666293417.408839,0,0,0,0,all-week9
+48,message,I'm sticking with the trips that have delivery request associated with them cos there i can only do that much with the trips dataset other than find the time it takes to complete the trip and where orders are coming from.,Michelle Lewis,1666329748.847109,text,1666293417.408839,0,0,0,0,all-week9
+49,message,is all accepted trip delivered or fullfilled?,Nancy Craig,1666335813.820309,text,1666293417.408839,0,0,0,0,all-week9
+50,message,is all accepted trip delivered or fullfilled?,Nancy Craig,1666335850.351109,text,0,0,0,0,0,all-week9
+51,message,does rejected trip has a relation with fulfillment and unfulfillment of the trip,Nancy Craig,1666336083.356099,text,1666336083.356099,2,2,"U03UJH1EQQL,U03UG5VFN03",1666336382.566209,all-week9
+52,message,"as per my understanding, if it is accepted status it is fulfillment of the request and if it is rejected it is unfulfillment of the request. so finally we can measure the fulfillment based on the driver actions later in the casual graph and model.",Kelly Soto,1666336343.748629,text,1666336083.356099,0,0,0,0,all-week9
+53,message,thanks,Nancy Craig,1666336382.566209,text,1666336083.356099,0,0,0,0,all-week9
+54,message,Isn't it more fun to work with real data than with Titanic data?,Katherine Foster,1666337890.778339,text,1666337890.778339,1,1,U03UJN29Y4C,1666339046.512169,all-week9
+55,message,Of course it is.,Michelle Lewis,1666339046.512169,text,1666337890.778339,0,0,0,0,all-week9
+56,message,which method of iterating through pandas dataframe is less time consuming please? trying to calculate distance but it is taking forever,Michelle Lewis,1666339188.068529,text,1666339188.068529,4,2,"U03UUR571A5,U03UJN29Y4C",1666363061.560559,all-week9
+57,message,"```from geopy import distance
+
+start_coordinates = df_trip['Trip Origin'].tolist()
+end_coordinates = df_trip['Trip Destination'].tolist()
+
+def calculate_distances(self, starting_coordinates, ending_coordinates):
+        calculated_distances = []
+        for i in range(len(starting_coordinates)):
+            val = str(starting_coordinates[i]).split(',')
+            starting_tuple = (val[0], val[1])
+            val_end = str(ending_coordinates[i]).split(',')
+            ending_tuple = (val_end[0], val_end[1])
+            calculated_distances.append(distance.distance(starting_tuple, ending_tuple).km)
+        return calculated_distances
+
+df_trip['distance'] = calculate_distances(start_coordinates, end_coordinates)```",Amy Leon,1666339543.791989,text,1666339188.068529,0,0,0,0,all-week9
+58,message,in the data/table we do not have the time at which the order was created right? how are we going to extract the day and hour?  we can extract it from the trip_start_time but that is not going to represent the time at the order created because the trip my happen days after the order. What do you guys suggest?,Katie Dickerson,1666340862.645279,text,1666340862.645279,1,1,U03UUR571A5,1666341043.392559,all-week9
+59,message,"If we can assure all the orders are not scheduled, trip_start_time would be closer to the created one.",Amy Leon,1666341043.392559,text,1666340862.645279,0,0,0,0,all-week9
+60,message,"Just an update on the data from Gokada CEO Olutosin
+
+a)
+nb.csv contains 535k orders created in the span of 6 months from July 2021 - December 2021
+driver_locations_during_request.csv contains driver order requests and the location of the driver during the request for each order in the nb.csv (Trip ID). Since this is a very data intensive task we calculated it only for one month.
+driver_locations_during_request.csv#order_id == nb.csv#trip_id
+
+
+b)
+We can easily stipulate for now based on the orders created_at to get a sense of when the drivers got the order for this analysis, if we need precise timestamps we will need to recalculate the datasets for the first month again.",Eric Myers,1666341265.641079,text,1666341265.641079,1,1,U03UD68RQH3,1666366103.726039,all-week9
+61,message,"<!channel>, Yabebal just joined the session after we ended it and is holding an open floor for discussion on the challenge. Join back in if you have questions you'd like answered",Michele Sparks,1666341680.004879,broadcast,1666341680.004879,3,3,"U03UG4Q7V42,U03U1HAG9TR,U03UP7V9Q57",1666342853.439249,all-week9
+62,message,Will it be recorded? Power is out here:pray:,Phillip Atkins,1666341792.972629,text,1666341680.004879,0,0,0,0,all-week9
+63,message,Thanks for the update <@U03UP7V9Q57>,Robert Carter,1666341896.834009,text,1666341680.004879,0,0,0,0,all-week9
+64,message,"<@U03UG4Q7V42>, unfortunately the session has not been recorded",Michele Sparks,1666342853.439249,user,1666341680.004879,0,0,0,0,all-week9
+65,message,"<!here>, I was not online on slack, and for som of us who did not attend the Yabebals talk today, can someone please at least try to summarize the main things he covered",Travis Butler,1666343196.890919,broadcast,0,0,0,0,0,all-week9
+66,message,"sorry to hear that <@U03UJGP0C68>, hope it's get better",Cristian Wilson,1666358713.559869,text,1666193972.590499,0,0,0,0,all-week9
+67,message,"Thank you *Nat,* I kinda know where the problem is now. I was trying to find the driving distance which required sending an http request to OSRM which is why its taking such a long time to load.",Michelle Lewis,1666362908.357549,text,1666339188.068529,0,0,0,0,all-week9
+68,message,"`t_origin_long = df3['trip_origin_long'].tolist()`
+`t_origin_lat = df3['trip_origin_lat'].tolist()`
+`t_dest_long = df3['trip_dest_long'].tolist()`
+`t_dest_lat = df3['trip_dest_lat'].tolist()`
+
+`trip_distance = []`
+`optimal_duration = []`
+
+`lenght = len(t_origin_long)`
+`for i in range(lenght):`
+  `r = requests.get(f""""""<http://router.project-osrm.org/route/v1/car/{t_origin_long[i]},{t_origin_lat[i]};{t_dest_long[i]},{t_dest_lat[i]}?overview=false>"""""")`
+  `route_1 = json.loads(r.content)[""routes""][0]`
+  `trip_distance.append(route_1[""distance""])`
+  `optimal_duration.append(route_1[""duration""])`",Michelle Lewis,1666362960.984079,text,1666339188.068529,0,0,0,0,all-week9
+69,message,I gonna go with the geospatial distance i guess,Michelle Lewis,1666363061.560559,text,1666339188.068529,0,0,0,0,all-week9
+70,message,b) says that we can use created_at timestamp to know when the order got created but all of created_at and updated_at filed of the csv are null. <@U03UUN8M4RX>,Brady Rhodes,1666366103.726039,text,1666341265.641079,0,0,0,0,all-week9
+71,message,Switch your latitude to be longitude and longitude latitude,Ashley Hamilton,1666384321.085799,text,1666379081.832479,0,0,0,0,all-week9
+72,message,"How can I split the two columns trip origin and trip destination into four, trip_origin_x, trip_origin_y and trip_destination_x and trip_destination_y?",Ashley Hamilton,1666398087.858739,text,1666398087.858739,2,2,"U03UJGP0C68,U03V785NLSU",1666447536.903209,all-week9
+73,message,"<@U03UUR571A5> has explained it here and it works
+
+<https://10academybatch6.slack.com/archives/C047EE54HPS/p1666253462938469?thread_ts=1666210433.816259&amp;channel=C047EE54HPS&amp;message_ts=1666253462.938469|https://10academybatch6.slack.com/archives/C047EE54HPS/p1666253462938469?thread_ts=1666210433.816259&amp;channel=C047EE54HPS&amp;message_ts=1666253462.938469>",Judith Bolton,1666411656.824089,user,1666398087.858739,0,0,0,0,all-week9
+74,message,"Thank you, I'd try that",Michelle Lewis,1666418589.689479,text,1666379081.832479,0,0,0,0,all-week9
+75,message,"Hey <@U03UJGP0C68> try this
+pip install causalnex==0.11.0",Daniel Brown,1666419133.797209,text,1666419133.797209,11,3,"U03UJGP0C68,U03UJH1EQQL,U03U1FNPEUX",1666426127.576419,all-week9
+76,message,Oh ok thanks man…let me try it,Judith Bolton,1666419260.245379,text,1666419133.797209,0,0,0,0,all-week9
+77,message,still the same error though,Judith Bolton,1666419561.959459,text,1666419133.797209,0,0,0,0,all-week9
+78,message,i use to install based on the guide on the official site using conda environment.,Kelly Soto,1666420296.753909,text,1666419133.797209,0,0,0,0,all-week9
+79,message,i meant creating new environment for it!,Kelly Soto,1666420416.938739,text,1666419133.797209,0,0,0,0,all-week9
+80,message,i used conda environment but no success,Judith Bolton,1666421745.201399,text,1666419133.797209,0,0,0,0,all-week9
+81,message,could you share the guide please,Judith Bolton,1666421754.789269,text,1666419133.797209,0,0,0,0,all-week9
+82,message,<https://causalnex.readthedocs.io/en/latest/02_getting_started/01_prerequisites.html#using-conda>,Kelly Soto,1666421883.860729,link,1666419133.797209,0,0,0,0,all-week9
+83,message,What is atplotlib man?,Joshua Rhodes,1666422611.150199,text,1666419133.797209,0,0,0,0,all-week9
+84,message,Is matplotlib installed?,Joshua Rhodes,1666422625.262029,text,1666419133.797209,0,0,0,0,all-week9
+85,message,"pip install ""causalnex[all]""",Joshua Rhodes,1666422792.666639,text,1666419133.797209,0,0,0,0,all-week9
+86,message,<@U03UJH1EQQL> thank you very much it's working now,Judith Bolton,1666426127.576419,user,1666419133.797209,0,0,0,0,all-week9
+87,message,Can anyone tell me what we have to deliver today?,Samuel King,1666437390.182489,text,0,0,0,0,0,all-week9
+88,message,<@U03UUMR26Q1> submission is for tomorrow,Katie Dickerson,1666437430.829009,user,0,0,0,0,0,all-week9
+89,message,what about career exercise?,Samuel King,1666437461.613629,text,1666437461.613629,6,2,"U03UG32J3PC,U03UUMR26Q1",1666453054.135869,all-week9
+90,message,I have never seen anything on the classroom,April Lucas,1666437551.787949,text,1666437461.613629,0,0,0,0,all-week9
+91,message,do you mean no any submission today?,Samuel King,1666437641.805519,text,1666437461.613629,0,0,0,0,all-week9
+92,message,Yes,April Lucas,1666437653.164039,text,1666437461.613629,0,0,0,0,all-week9
+93,message,Thank You.,Samuel King,1666437679.950539,text,1666437461.613629,0,0,0,0,all-week9
+94,message,Thanks.,Ashley Hamilton,1666447536.903209,text,1666398087.858739,0,0,0,0,all-week9
+95,message,The challenge document says today is submission day for 10 Academy profile and cv too.,Ashley Hamilton,1666448483.562499,text,0,0,0,0,0,all-week9
+96,message,<@U03UL5LSTG9> <@U03TT5KEYCF> <@U03U4GULU3Y>,Ashley Hamilton,1666448540.674459,user,1666448540.674459,1,1,U03U4GULU3Y,1666455738.508809,all-week9
+97,message,The non-technical assignments are posted on the classroom and it's due for today,April Lucas,1666452756.641139,text,1666437461.613629,0,0,0,0,all-week9
+98,message,ok,Samuel King,1666453054.135869,text,1666437461.613629,0,0,0,0,all-week9
+99,message,What torch version?,Joshua Rhodes,1666454736.975409,text,1666453751.515939,0,0,0,0,all-week9
+100,message,the deadline for submission is tomorrow 8pm UTC,Allison Thompson,1666455738.508809,text,1666448540.674459,0,0,0,0,all-week9
+101,message,"I faced the same issue but it was fixed by following this thread
+<https://10academybatch6.slack.com/archives/C047EE54HPS/p1666419133797209?thread_ts=1666419133.797209&amp;cid=C047EE54HPS|https://10academybatch6.slack.com/archives/C047EE54HPS/p1666419133797209?thread_ts=1666419133.797209&amp;cid=C047EE54HPS>",Amy Leon,1666458343.144489,text,1666453751.515939,0,0,0,0,all-week9
+102,message,for me creating  installing the libraries in a conda envt solved this problem,Judith Bolton,1666464043.921209,text,1666453751.515939,0,0,0,0,all-week9
+103,message,<@U03U1FNPEUX> torch             1.12.1,Travis Butler,1666513935.439479,user,1666453751.515939,0,0,0,0,all-week9
+104,message,what is the python version you used to create the virtual environments in which you also installed causalnex? <@U03U1FNPEUX> <@U03UJGP0C68> <@U03UUR571A5>,Travis Butler,1666516757.437419,text,1666453751.515939,0,0,0,0,all-week9
+105,message,3.8,Judith Bolton,1666519434.902969,text,1666453751.515939,0,0,0,0,all-week9
+106,message,"Thank you, my python version was 3.10",Travis Butler,1666521758.493219,text,1666453751.515939,0,0,0,0,all-week9
+107,message,<https://realpython.com/linear-programming-python/|Hands-On Linear Programming: Optimization With Python – Real Python>,Kelly Soto,1666544242.275809,link,0,0,0,0,0,all-week9
+108,message,<https://stackoverflow.com/questions/70941094/how-to-get-the-distance-between-two-geographic-coordinates-of-two-different-data>,Joshua Rhodes,1666552319.011779,link,0,0,0,0,0,all-week9
+109,message,"<@U03UJGP0C68> <@U03UUR571A5> <@U03V785NLSU> presented to Olutosin and killed it.  He was super impressed.
+
+Big congrats to all of you guys.",Katherine Foster,1666962823.974699,user,0,0,0,0,0,all-week9
