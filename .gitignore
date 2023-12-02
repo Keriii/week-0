@@ -15,7 +15,6 @@ logs/**
 
 #ignore the all dataset
 all_data.csv
-
 data_csv.csv
 # except their sub-folders
 !data/**/
